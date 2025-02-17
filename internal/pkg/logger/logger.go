@@ -9,7 +9,7 @@ import (
 //
 //go:generate mockery --name ILogger
 type ILogger interface {
-	getLevel() log.Level
+	//GetLevel() log.Level
 	Debug(args ...interface{})
 	Debugf(format string, args ...interface{})
 	Info(args ...interface{})
